@@ -73,7 +73,7 @@ function fetchResource(resource, init = {}) {
         const remoteResource = `${url.host}${hash ? `/${hash}` : ''}`;
 
         // Try the proxy!
-        return fromFetch(`https://chickar.ee/proxy/${remoteResource}`, options).pipe(
+        return fromFetch(`https://cdn.757live.workers.dev/proxy/${remoteResource}`, options).pipe(
           map((response) => {
             // Update the cache in the background.
             const clonedResponse = response.clone();
