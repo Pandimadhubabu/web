@@ -1,6 +1,6 @@
-name = "chickaree-web"
+name = "chickaree-web2"
 type = "webpack"
-account_id = "2659099e440328a773821e7db5363a84"
+account_id = "75d4d63f3c7c3830efbe428bda49d72a"
 workers_dev = true
 webpack_config = "worker.config.js"
 
