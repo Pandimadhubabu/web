@@ -1,4 +1,4 @@
-name = "chickaree-web2"
+name = "cdn"
 type = "webpack"
 account_id = "75d4d63f3c7c3830efbe428bda49d72a"
 workers_dev = true
