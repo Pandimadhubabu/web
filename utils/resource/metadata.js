@@ -1,6 +1,6 @@
 import getResourcePath from './path';
 
-const URL_BASE = 'https://chickar.ee';
+const URL_BASE = 'https://cdn-web.757live.workers.dev';
 
 function createTitle(...pieces) {
   return pieces.filter((part) => !!part).join(' | ');
