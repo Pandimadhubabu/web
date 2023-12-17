@@ -173,7 +173,7 @@ function Chickaree({ Component, pageProps }) {
   // Intercept a dispatch and convert it to an action to be saved in IndexedDB.
   const dispatcher = useCallback((action) => {
     if (database && [FOLLOW, UNFOLLOW].includes(action.type)) {
-      const id = `https://chickar.ee/activity/${ulid().toLowerCase()}`;
+      const id = `https://cdn-web.757live.workers.dev/activity/${ulid().toLowerCase()}`;
       const published = DateTime.utc().toJSDate();
 
       if (action.type === FOLLOW) {
