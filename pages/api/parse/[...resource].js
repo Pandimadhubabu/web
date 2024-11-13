@@ -4,7 +4,6 @@ import getResponseData from '../../../utils/response/data';
 
 const { JSDOM } = jsdom;
 const { Response } = fetch;
-
 // Setup Globals
 const { window } = new JSDOM('');
 global.DOMParser = window.DOMParser;
